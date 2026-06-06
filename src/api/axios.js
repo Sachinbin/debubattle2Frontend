@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL:'https://debubattle2bakend.onrender.com' || 'http://localhost:5000/api',
+  baseURL:'https://debubattle2bakend.onrender.com/api',
   withCredentials: true, // Required to send cookies
 });
 
